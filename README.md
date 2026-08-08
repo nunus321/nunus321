@@ -4,7 +4,7 @@
   <img width="100%" alt="Jonas Mersal portfolio" src="https://github.com/user-attachments/assets/e3662a79-ecbf-4b1f-bcef-f1eaa43d41bb" />
 </a>
 
-**[View portfolio and project demos →](https://nunus321.github.io/)**
+**[View portfolio for more projects and details →](https://nunus321.github.io/)**
 
 </div>
 
@@ -102,6 +102,11 @@ I integrated the recognizer directly into the game and built the input system to
 
 I fine tuned a multilingual extractive question answering model that finds answers directly inside documents instead of generating new responses. I worked on preprocessing, tokenisation, training and evaluation across several languages.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a8997b2a-7860-43c1-aff6-0a0f4fd365da" alt="Multilingual document question answering example" width="49%" />
+  <img src="https://github.com/user-attachments/assets/42820a6e-faa7-4acf-88ef-e686e15202df" alt="Multilingual document question answering example in another language" width="49%" />
+</p>
+
 `Python` `PyTorch` `NLP` `Transformers` `Fine Tuning` `Question Answering`
 
 ### 📰 Fake News Detector
@@ -122,11 +127,25 @@ I built a responsive Pokedex with a Flask backend and a SQLite database. It supp
 
 `Python` `Flask` `SQLite` `SQL` `HTML` `CSS`
 
+### 🧱 Breakout Arcade Game
+
+I built a Breakout style arcade game in C# as part of my Software Development course at the University of Copenhagen. The game uses a state machine to keep menus, pause states and gameplay separate, along with a custom parser that loads levels from text files.
+
+I also wrote NUnit tests for the codebase and structured the project around SOLID principles.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2bc4a569-352b-4f83-973d-be3a60d93e49" alt="Breakout arcade game gameplay" width="70%" />
+</p>
+
+`C#` `NUnit` `SOLID` `State Machines` `Parsing` `Software Architecture`
+
 ### 🖥️ Retro Computer Portfolio
 
-My portfolio is built as an interactive 3D retro computer. It includes a small terminal, a file system, markdown rendering and custom text layout.
+I built my portfolio as an interactive 3D retro computer using TypeScript and Three.js. At the top of the site, the computer includes a working terminal where you can navigate with commands such as `help`, `ls`, `cd` and `show`. Scrolling down reveals the rest of the portfolio with project descriptions, videos and GIFs.
 
-<img width="828" height="720" alt="Adobe Express - breakoutgameshowcase" src="https://github.com/user-attachments/assets/2bc4a569-352b-4f83-973d-be3a60d93e49" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4f834e69-9434-47d3-a5fc-56a972b3b4af" alt="Interactive retro computer portfolio with terminal and project showcase" width="830" />
+</p>
 
 **[View portfolio for more projects and details →](https://nunus321.github.io/)**
 
@@ -140,4 +159,4 @@ My portfolio is built as an interactive 3D retro computer. It includes a small t
 
 ## 📫 Contact
 
-You can reach me through **[LinkedIn](https://www.linkedin.com/in/jonasmersal/)** or by email at **[your@email.com](mailto:your@email.com)**.
+You can reach me through **[LinkedIn](https://www.linkedin.com/in/jonasmersal/)** or by email at **[jonasalmersal@outlook.dk](mailto:jonasalmersal@outlook.dk)**.
