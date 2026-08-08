@@ -8,8 +8,6 @@
 
 </div>
 
-<div align="center">
-
 # Hi, I'm Jonas 👋
 
 🤖 **AI Engineer focused on machine learning, RAG and backend development**
@@ -18,17 +16,15 @@
 
 🌐 **[Portfolio](https://nunus321.github.io/)** &nbsp; • &nbsp; 💼 **[LinkedIn](https://www.linkedin.com/in/jonasmersal/)**
 
-</div>
-
-Most of my work is in **Python and TypeScript**.
+I mostly work in **Python and TypeScript**.
 
 ## 💼 Current work
 
 ### 🤖 [SkoleGPT](https://skolegpt.dk/)
 
-I work as an AI Engineer at **Københavns Professionshøjskole** on SkoleGPT, an open source generative AI platform built for Danish schools and hosted in Denmark. Its models run on DBC's GPU infrastructure rather than relying on external AI APIs.
+I work as an AI Engineer at **Københavns Professionshøjskole** on SkoleGPT, an open source generative AI platform for Danish schools. Our machine learning models run on DBC's GPU infrastructure in Denmark instead of being served through external AI APIs.
 
-I mainly work on the AI and backend side of the platform. My current work includes building retrieval augmented generation features, working on Danish text to speech, evaluating AI and backend behavior, and collaborating with the development team on debugging and improvements. I also have responsibility for backend and fine tuning work, including evaluating how those parts of the system should be developed.
+My role covers the AI and backend side of the platform. I build retrieval augmented generation features, work on Danish text to speech, evaluate model outputs and backend behavior, and help the development team debug and improve the system. I also have responsibility for backend and fine tuning work, including evaluating how those parts of the platform should be developed.
 
 ## ⚡ Tech stack
 
@@ -75,32 +71,36 @@ I mainly work on the AI and backend side of the platform. My current work includ
 
 ## 🚀 Selected projects
 
-### 🤖 AI and Machine Learning
+### 🔎 Learning to Rank for Product Search
 
-#### 🔎 AI for Product Search
+For my bachelor project, I built and compared learning to rank pipelines on the Amazon ESCI dataset. I used ASHA to stop weak configurations early and allocate more compute to promising ones, which let me test more combinations of features, preprocessing steps and models. I worked on the full pipeline from data cleaning and feature engineering to model selection and evaluation.
 
-For my bachelor project, I built and compared learning to rank pipelines using the Amazon ESCI dataset. I used the **Asynchronous Successive Halving Algorithm (ASHA)** to stop weak configurations early and allocate more compute to promising ones, which made it possible to test more combinations of features, preprocessing steps and models. I worked on the full pipeline from data cleaning and feature engineering to model selection and evaluation.
+<img width="1304" height="380" alt="reranking (2)" src="https://github.com/user-attachments/assets/46622b09-3372-4ba5-a4e0-439101ddb9b9" />
 
-<img width="1304" height="380" alt="Product search reranking pipeline" src="https://github.com/user-attachments/assets/46622b09-3372-4ba5-a4e0-439101ddb9b9" />
+`Python` `PyTorch` `NumPy` `Information Retrieval` `Learning to Rank` `ASHA`
 
-`Python` `PyTorch` `NumPy` `Machine Learning` `Information Retrieval` `Learning to Rank` `Hyperparameter Optimization`
+### ✨ Runeweaver: AI Rune Recognition
 
-#### ✨ Runeweaver: AI Rune Recognition
+Runeweaver is a 2D fantasy game built around an AI system for recognizing hand drawn runes. Instead of pressing a button to cast a spell, the player draws a rune on screen. The system analyzes the gesture in real time, classifies the symbol and maps it to a gameplay action.
 
-Runeweaver is a 2D fantasy game built around **AI based symbol recognition**. Instead of pressing a button to cast a spell, the player draws a rune directly on the screen. The game analyses the hand drawn symbol in real time, classifies which rune was drawn and turns the result into a gameplay action.
-
-I integrated the recognizer directly into the game and built the input system to work across both desktop and touch devices.
+I built the game for PC, but also made the input system work with touchscreens. Besides PC, the game can also be played directly in the browser on phones, iPads and other touchscreen devices.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f43e4ddc-7bf7-4add-be39-2f9bd2059d80" alt="Runeweaver recognizing a hand drawn lightning rune" width="49%" />
   <img src="https://github.com/user-attachments/assets/cbb49e13-5732-4509-ace6-54ce14d50413" alt="Runeweaver shield rune deflecting a boss attack" width="49%" />
 </p>
 
-**[Play Runeweaver in your browser](https://jonasalmersaloutlookdk.itch.io/runeweaver)**
+<p align="center">
+  <a href="https://jonasalmersaloutlookdk.itch.io/runeweaver">
+    <img src="https://img.shields.io/badge/PLAY%20RUNEWEAVER-IN%20YOUR%20BROWSER-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white" alt="Play Runeweaver in your browser" />
+  </a>
+  <br />
+  <sub>No download required</sub>
+</p>
 
-`AI` `Pattern Recognition` `Symbol Classification` `Real Time Systems` `Game Development`
+`AI` `Pattern Recognition` `Symbol Classification` `Real Time Systems` `Godot` `Game Development`
 
-#### 🌍 AI Document Question Answering Across Languages
+### 🌍 AI Document Question Answering Across Languages
 
 I trained a machine learning model to answer questions using a provided source document. Instead of answering only from knowledge learned during training, the model finds the relevant answer directly in the supplied text.
 
@@ -113,33 +113,31 @@ The same general idea is used by tools such as **ChatGPT** and the **AI features
 It is especially useful for company policies, contracts, manuals, reports and internal knowledge systems, where employees can ask a specific question and get the relevant answer without having to search through large amounts of unrelated documentation. Because the answer comes from the provided source material, it can also be traced back and verified.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a8997b2a-7860-43c1-aff6-0a0f4fd365da" alt="AI document question answering example" width="49%" />
-  <img src="https://github.com/user-attachments/assets/42820a6e-faa7-4acf-88ef-e686e15202df" alt="AI document question answering example across languages" width="49%" />
+  <img src="https://github.com/user-attachments/assets/a8997b2a-7860-43c1-aff6-0a0f4fd365da" alt="Multilingual document question answering example" width="49%" />
+  <img src="https://github.com/user-attachments/assets/42820a6e-faa7-4acf-88ef-e686e15202df" alt="Multilingual document question answering example in another language" width="49%" />
 </p>
 
 `Python` `PyTorch` `AI` `Machine Learning` `NLP` `Transformers` `Fine Tuning` `Question Answering`
 
-#### 📰 Machine Learning Fake News Detector
+### 📰 Fake News Detector
 
-I built an NLP classifier using public datasets as well as BBC articles that I scraped and cleaned myself. I compared Naive Bayes, logistic regression, Random Forest, Support Vector Machine and a neural network. **The best model correctly identified whether an unseen article was fake or reliable more than 96 percent of the time.**
+I built an NLP classifier using public datasets and BBC articles that I scraped and cleaned myself. I trained and compared Naive Bayes, logistic regression, Random Forest, Support Vector Machine and a neural network. The best model achieved more than **96 percent accuracy** on unseen articles.
 
-I also built a dashboard that shows which words pushed a prediction towards fake or reliable.
+I also built a dashboard that highlights the words that influenced each prediction.
 
-<img width="788" height="382" alt="Fake news detection model" src="https://github.com/user-attachments/assets/2aa935d6-6985-43d8-8429-44a4a853984f" />
+<img width="788" height="382" alt="fakenewsdetection (1)" src="https://github.com/user-attachments/assets/2aa935d6-6985-43d8-8429-44a4a853984f" />
 
-`Python` `Machine Learning` `scikit-learn` `PyTorch` `NLP` `Classification` `Data Processing`
+`Python` `scikit-learn` `PyTorch` `NLP` `Classification` `Data Processing`
 
-### 💻 Software and Backend
+### 🔴 Pokedex Web App
 
-#### 🔴 Pokedex Web App
+I built a responsive Pokedex with a Flask backend and SQLite database. Users can browse, add and delete Pokémon records, while Flask handles the application logic and database operations.
 
-I built a responsive Pokedex with a Flask backend and a SQLite database. It supports viewing, adding and deleting Pokemon records and gave me practical experience with Python backends, SQL and CRUD.
-
-<img width="2560" height="1392" alt="Pokedex web app" src="https://github.com/user-attachments/assets/fb1a51fa-d255-4e5c-a4d6-cd22bb5ed765" />
+<img width="2560" height="1392" alt="Adobe Express - pokedex" src="https://github.com/user-attachments/assets/fb1a51fa-d255-4e5c-a4d6-cd22bb5ed765" />
 
 `Python` `Flask` `SQLite` `SQL` `HTML` `CSS`
 
-#### 🧱 Breakout Arcade Game
+### 🧱 Breakout Arcade Game
 
 I built a Breakout style arcade game in C# as part of my Software Development course at the University of Copenhagen. The game uses a state machine to keep menus, pause states and gameplay separate, along with a custom parser that loads levels from text files.
 
@@ -151,9 +149,9 @@ I also wrote NUnit tests for the codebase and structured the project around SOLI
 
 `C#` `NUnit` `SOLID` `State Machines` `Parsing` `Software Architecture`
 
-#### 🖥️ Retro Computer Portfolio
+### 🖥️ Retro Computer Portfolio
 
-I built my portfolio as an interactive 3D retro computer using TypeScript and Three.js. At the top of the site, the computer includes a working terminal where you can navigate with commands such as `help`, `ls`, `cd` and `show`. Scrolling down reveals the rest of the portfolio with project descriptions, videos and GIFs.
+I built my portfolio as an interactive 3D retro computer using TypeScript and Three.js. It includes a terminal, a virtual file system, markdown rendering and custom text layout.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4f834e69-9434-47d3-a5fc-56a972b3b4af" alt="Interactive retro computer portfolio with terminal and project showcase" width="830" />
@@ -165,9 +163,9 @@ I built my portfolio as an interactive 3D retro computer using TypeScript and Th
 
 ## 📍 Location and education
 
-* 🏠 Copenhagen, Denmark
-* 🎓 MSc in Computer Science, University of Copenhagen, 2026 to 2028
-* 🎓 BSc in Computer Science, University of Copenhagen, 2023 to 2026
+- 🏠 Copenhagen, Denmark
+- 🎓 MSc in Computer Science, University of Copenhagen, 2026 to 2028
+- 🎓 BSc in Computer Science, University of Copenhagen, 2023 to 2026
 
 ## 📫 Contact
 
