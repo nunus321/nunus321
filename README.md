@@ -42,7 +42,7 @@ I mainly work on the AI and backend side of the platform. This includes evaluati
 
 ## ⚡ Tech stack
 
-### 💻 Languages
+### 💻 Programming Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
