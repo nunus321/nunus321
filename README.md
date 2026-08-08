@@ -22,9 +22,17 @@ I mostly work in **Python and TypeScript**.
 
 ### 🤖 [SkoleGPT](https://skolegpt.dk/)
 
-I work as an AI Engineer at **Københavns Professionshøjskole** on SkoleGPT, an open source generative AI platform for Danish schools. Our machine learning models run on DBC's GPU infrastructure in Denmark instead of being served through external AI APIs.
+I work as an AI Engineer at **Københavns Professionshøjskole** on SkoleGPT, an open source generative AI platform for Danish schools. Our machine learning models run on DBC's private GPU infrastructure in Denmark, helping keep sensitive student data in Denmark instead of sending it to external AI providers.
 
-My role covers the AI and backend side of the platform. I build retrieval augmented generation features, work on Danish text to speech, evaluate model outputs and backend behavior, and help the development team debug and improve the system. I also have responsibility for backend and fine tuning work, including evaluating how those parts of the platform should be developed.
+I mainly work on the AI and backend side of the platform. This includes evaluating, deploying and fine tuning open source LLMs, building RAG features for educational and scientific documents, and working on text to speech and other AI features. I also contribute to the web application and Docker based deployment.
+
+<p align="center">
+  <a href="https://skolegpt.dk/">
+    <img width="100%" alt="SkoleGPT responding to a prompt" src="https://github.com/user-attachments/assets/d9436945-d4da-40fd-88d4-922275f56d10" />
+  </a>
+</p>
+
+`Python` `TypeScript` `LLMs` `RAG` `Machine Learning` `Docker` `Text to Speech`
 
 ## ⚡ Tech stack
 
