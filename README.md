@@ -28,7 +28,13 @@ I mainly work on the AI and backend side of the platform. This includes evaluati
 
 <p align="center">
   <a href="https://skolegpt.dk/">
-    <img width="100%" alt="SkoleGPT responding to a prompt" src="https://github.com/user-attachments/assets/d9436945-d4da-40fd-88d4-922275f56d10" />
+    <img width="100%" alt="SkoleGPT responding to a prompt" src="https://github.com/user-attachments/assets/084e3dde-0df4-4241-b533-6f44fb06b4a7" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://skolegpt.dk/">
+    <img src="https://img.shields.io/badge/TRY%20SKOLEGPT-IN%20YOUR%20BROWSER-4F46E5?style=for-the-badge" alt="Try SkoleGPT in your browser" />
   </a>
 </p>
 
@@ -83,7 +89,7 @@ I mainly work on the AI and backend side of the platform. This includes evaluati
 
 For my bachelor project, I built and compared learning to rank pipelines on the Amazon ESCI dataset. I used ASHA to stop weak configurations early and allocate more compute to promising ones, which let me test more combinations of features, preprocessing steps and models. I worked on the full pipeline from data cleaning and feature engineering to model selection and evaluation.
 
-<img width="1304" height="380" alt="reranking (2)" src="https://github.com/user-attachments/assets/46622b09-3372-4ba5-a4e0-439101ddb9b9" />
+<img width="100%" alt="reranking (2)" src="https://github.com/user-attachments/assets/46622b09-3372-4ba5-a4e0-439101ddb9b9" />
 
 `Python` `PyTorch` `NumPy` `Information Retrieval` `Learning to Rank` `ASHA`
 
@@ -133,7 +139,7 @@ I built an NLP classifier using public datasets and BBC articles that I scraped 
 
 I also built a dashboard that highlights the words that influenced each prediction.
 
-<img width="788" height="382" alt="fakenewsdetection (1)" src="https://github.com/user-attachments/assets/2aa935d6-6985-43d8-8429-44a4a853984f" />
+<img width="100%" alt="fakenewsdetection (1)" src="https://github.com/user-attachments/assets/2aa935d6-6985-43d8-8429-44a4a853984f" />
 
 `Python` `scikit-learn` `PyTorch` `NLP` `Classification` `Data Processing`
 
@@ -141,7 +147,9 @@ I also built a dashboard that highlights the words that influenced each predicti
 
 I built a responsive Pokedex with a Flask backend and SQLite database. Users can browse, add and delete Pokémon records, while Flask handles the application logic and database operations.
 
-<img width="2560" height="1392" alt="Adobe Express - pokedex" src="https://github.com/user-attachments/assets/fb1a51fa-d255-4e5c-a4d6-cd22bb5ed765" />
+<p align="center">
+  <img width="100%" alt="Pokedex Web App" src="https://github.com/user-attachments/assets/fb1a51fa-d255-4e5c-a4d6-cd22bb5ed765" />
+</p>
 
 `Python` `Flask` `SQLite` `SQL` `HTML` `CSS`
 
@@ -152,7 +160,7 @@ I built a Breakout style arcade game in C# as part of my Software Development co
 I also wrote NUnit tests for the codebase and structured the project around SOLID principles.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2bc4a569-352b-4f83-973d-be3a60d93e49" alt="Breakout arcade game gameplay" width="70%" />
+  <img src="https://github.com/user-attachments/assets/2bc4a569-352b-4f83-973d-be3a60d93e49" alt="Breakout arcade game gameplay" width="88%" />
 </p>
 
 `C#` `NUnit` `SOLID` `State Machines` `Parsing` `Software Architecture`
@@ -162,7 +170,7 @@ I also wrote NUnit tests for the codebase and structured the project around SOLI
 I built my portfolio as an interactive 3D retro computer using TypeScript and Three.js. It includes a terminal, a virtual file system, markdown rendering and custom text layout.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4f834e69-9434-47d3-a5fc-56a972b3b4af" alt="Interactive retro computer portfolio with terminal and project showcase" width="830" />
+  <img src="https://github.com/user-attachments/assets/0fbb994a-2e0b-4e43-b2e1-bac2cbf0df04" alt="Interactive retro computer portfolio with terminal and project showcase" width="100%" />
 </p>
 
 **[View portfolio for more projects and details →](https://nunus321.github.io/)**
