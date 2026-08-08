@@ -46,7 +46,7 @@ I mainly work on the AI and backend side of the platform. My current work includ
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![scikit learn](https://img.shields.io/badge/scikit%20learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square)
 ![RAG](https://img.shields.io/badge/RAG-6C63FF?style=flat-square)
 ![NLP](https://img.shields.io/badge/NLP-5C2D91?style=flat-square)
@@ -75,15 +75,17 @@ I mainly work on the AI and backend side of the platform. My current work includ
 
 ## 🚀 Selected projects
 
-### 🔎 AI for Reranking
+### 🤖 AI and Machine Learning
 
-For my bachelor project, I built and compared learning to rank pipelines using the Amazon ESCI dataset. I used ASHA to stop weak configurations early, which made it possible to test more combinations of features, preprocessing and models. I worked on the full pipeline from data cleaning and feature engineering to model selection and evaluation.
+#### 🔎 AI for Product Search
 
-<img width="1304" height="380" alt="reranking (2)" src="https://github.com/user-attachments/assets/46622b09-3372-4ba5-a4e0-439101ddb9b9" />
+For my bachelor project, I built and compared learning to rank pipelines using the Amazon ESCI dataset. I used the **Asynchronous Successive Halving Algorithm (ASHA)** to stop weak configurations early and allocate more compute to promising ones, which made it possible to test more combinations of features, preprocessing steps and models. I worked on the full pipeline from data cleaning and feature engineering to model selection and evaluation.
 
-`Python` `PyTorch` `NumPy` `Information Retrieval` `Learning to Rank` `ASHA`
+<img width="1304" height="380" alt="Product search reranking pipeline" src="https://github.com/user-attachments/assets/46622b09-3372-4ba5-a4e0-439101ddb9b9" />
 
-### ✨ Runeweaver: AI Rune Recognition
+`Python` `PyTorch` `NumPy` `Machine Learning` `Information Retrieval` `Learning to Rank` `Hyperparameter Optimization`
+
+#### ✨ Runeweaver: AI Rune Recognition
 
 Runeweaver is a 2D fantasy game built around **AI based symbol recognition**. Instead of pressing a button to cast a spell, the player draws a rune directly on the screen. The game analyses the hand drawn symbol in real time, classifies which rune was drawn and turns the result into a gameplay action.
 
@@ -98,36 +100,46 @@ I integrated the recognizer directly into the game and built the input system to
 
 `AI` `Pattern Recognition` `Symbol Classification` `Real Time Systems` `Game Development`
 
-### 🌍 Multilingual Document Question Answering
+#### 🌍 AI Document Question Answering Across Languages
 
-I fine tuned a multilingual extractive question answering model that finds answers directly inside documents instead of generating new responses. I worked on preprocessing, tokenisation, training and evaluation across several languages.
+I trained a machine learning model to answer questions using a provided source document. Instead of answering only from knowledge learned during training, the model finds the relevant answer directly in the supplied text.
+
+This makes it possible to trace an answer back to where it came from and verify that it is correct. It also reduces the risk of hallucinations, where an AI confidently gives information that is actually wrong.
+
+The model works across several languages, so a question can be asked in one language while the relevant information is written in another. For example, you can ask a question in English and retrieve the answer from a Danish, German, Spanish or other supported language document.
+
+The same general idea is used by tools such as **ChatGPT** and the **AI features built into Google Search**, where answers can be based on relevant source material instead of only on what the model learned during training.
+
+It is especially useful for company policies, contracts, manuals, reports and internal knowledge systems, where employees can ask a specific question and get the relevant answer without having to search through large amounts of unrelated documentation. Because the answer comes from the provided source material, it can also be traced back and verified.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a8997b2a-7860-43c1-aff6-0a0f4fd365da" alt="Multilingual document question answering example" width="49%" />
-  <img src="https://github.com/user-attachments/assets/42820a6e-faa7-4acf-88ef-e686e15202df" alt="Multilingual document question answering example in another language" width="49%" />
+  <img src="https://github.com/user-attachments/assets/a8997b2a-7860-43c1-aff6-0a0f4fd365da" alt="AI document question answering example" width="49%" />
+  <img src="https://github.com/user-attachments/assets/42820a6e-faa7-4acf-88ef-e686e15202df" alt="AI document question answering example across languages" width="49%" />
 </p>
 
-`Python` `PyTorch` `NLP` `Transformers` `Fine Tuning` `Question Answering`
+`Python` `PyTorch` `AI` `Machine Learning` `NLP` `Transformers` `Fine Tuning` `Question Answering`
 
-### 📰 Fake News Detector
+#### 📰 Machine Learning Fake News Detector
 
-I built an NLP classifier using public datasets as well as BBC articles that I scraped and cleaned myself. I compared Naive Bayes, logistic regression, Random Forest, Support Vector Machine and a neural network. The best model reached more than **96 percent accuracy** on unseen articles.
+I built an NLP classifier using public datasets as well as BBC articles that I scraped and cleaned myself. I compared Naive Bayes, logistic regression, Random Forest, Support Vector Machine and a neural network. **The best model correctly identified whether an unseen article was fake or reliable more than 96 percent of the time.**
 
 I also built a dashboard that shows which words pushed a prediction towards fake or reliable.
 
-<img width="788" height="382" alt="fakenewsdetection (1)" src="https://github.com/user-attachments/assets/2aa935d6-6985-43d8-8429-44a4a853984f" />
+<img width="788" height="382" alt="Fake news detection model" src="https://github.com/user-attachments/assets/2aa935d6-6985-43d8-8429-44a4a853984f" />
 
-`Python` `scikit learn` `PyTorch` `NLP` `Classification` `Data Processing`
+`Python` `Machine Learning` `scikit-learn` `PyTorch` `NLP` `Classification` `Data Processing`
 
-### 🔴 Pokedex Web App
+### 💻 Software and Backend
+
+#### 🔴 Pokedex Web App
 
 I built a responsive Pokedex with a Flask backend and a SQLite database. It supports viewing, adding and deleting Pokemon records and gave me practical experience with Python backends, SQL and CRUD.
 
-<img width="2560" height="1392" alt="Adobe Express - pokedex" src="https://github.com/user-attachments/assets/fb1a51fa-d255-4e5c-a4d6-cd22bb5ed765" />
+<img width="2560" height="1392" alt="Pokedex web app" src="https://github.com/user-attachments/assets/fb1a51fa-d255-4e5c-a4d6-cd22bb5ed765" />
 
 `Python` `Flask` `SQLite` `SQL` `HTML` `CSS`
 
-### 🧱 Breakout Arcade Game
+#### 🧱 Breakout Arcade Game
 
 I built a Breakout style arcade game in C# as part of my Software Development course at the University of Copenhagen. The game uses a state machine to keep menus, pause states and gameplay separate, along with a custom parser that loads levels from text files.
 
@@ -139,7 +151,7 @@ I also wrote NUnit tests for the codebase and structured the project around SOLI
 
 `C#` `NUnit` `SOLID` `State Machines` `Parsing` `Software Architecture`
 
-### 🖥️ Retro Computer Portfolio
+#### 🖥️ Retro Computer Portfolio
 
 I built my portfolio as an interactive 3D retro computer using TypeScript and Three.js. At the top of the site, the computer includes a working terminal where you can navigate with commands such as `help`, `ls`, `cd` and `show`. Scrolling down reveals the rest of the portfolio with project descriptions, videos and GIFs.
 
