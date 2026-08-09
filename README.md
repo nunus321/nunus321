@@ -16,8 +16,6 @@
 
 🌐 **[Portfolio](https://nunus321.github.io/)** &nbsp; • &nbsp; 💼 **[LinkedIn](https://www.linkedin.com/in/jonasmersal/)**
 
-I mostly work in **Python and TypeScript**.
-
 ## 💼 Current work
 
 ### 🤖 [SkoleGPT](https://skolegpt.dk/)
