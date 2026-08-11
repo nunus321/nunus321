@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://nunus321.github.io/">
-  <img width="100%" alt="Jonas Mersal portfolio" src="https://github.com/user-attachments/assets/e3662a79-ecbf-4b1f-bcef-f1eaa43d41bb" />
+  <img width="100%" alt="Jonas Mersal portfolio" src="https://github.com/user-attachments/assets/bf63064d-6270-498e-993a-5b3a8b6110e9" />
 </a>
 
 **[View portfolio for more projects and details →](https://nunus321.github.io/)**
