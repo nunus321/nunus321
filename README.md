@@ -10,7 +10,7 @@
 
 # Hi, I'm Jonas 👋
 
-🤖 **AI Engineer focused on machine learning, RAG and backend development**
+🤖 **AI Engineer focused on machine learning and backend development**
 
 🎓 MSc Computer Science student at the University of Copenhagen &nbsp; • &nbsp; 📍 Copenhagen, Denmark
 
